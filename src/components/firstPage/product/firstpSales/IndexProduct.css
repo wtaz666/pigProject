@@ -1,0 +1,23 @@
+.pro{
+    width: 100%;
+    border-bottom: 3px solid #eee;
+    display: flex;
+    flex-wrap: wrap;
+    line-height:30px;
+}
+.pro dl{
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+    display: inline-block;
+}
+.pro dl dt{
+    font-size: 20px;
+}
+.pro dl dd{
+    color: #999;
+}
+.col{
+    color: red;
+}

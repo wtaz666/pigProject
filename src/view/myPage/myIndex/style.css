@@ -1,0 +1,108 @@
+.myindex{
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    line-height: 40px;
+}
+.top a{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.top span{
+    flex: 1;
+    text-align: center;
+}
+.cont{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 5px;
+
+}
+.cont dl{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px 0;
+    border: solid 1px #ccc;
+
+}
+.cont dl dt {
+    width:30%;
+    text-align: center;
+}
+.cont dl dt img{
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.cont dl dd{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.pagetab{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 5px;
+}
+.pagetab>ul{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.pagetab>ul a{
+    color: #000;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 1px #eee;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.pagetab>ul a li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.pagetab>ul a li span{
+    background: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 50%;
+
+}
+.logOut{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    height: 45px;
+    position: fixed;
+    bottom: 20px;
+
+}
+.logOut p{
+    height: 45px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+    /* position: absolute; */
+    display: block;
+}

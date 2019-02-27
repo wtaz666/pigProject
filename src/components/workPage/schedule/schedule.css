@@ -1,0 +1,90 @@
+.pigMsg{
+    width: 90%;
+    margin-left: 5%;
+    height: 160px;
+    margin-top: 10px;
+    border: solid 1px #000;
+}
+
+.pigMsg .pigMsgHeight{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.pigMsg dl dt {
+    flex-shrink: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.pigMsg dl dd{
+    flex: 1;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.choseTime{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.timeEnd, .timeStart{
+    margin-left: 10px;
+}
+
+.searchBtn{
+    margin-left: 20px;
+    margin-top: 2px;
+    color: blue;
+}
+
+.errNum{
+    width: 90%;
+    margin-left: 5%;
+    height: 80px;
+    border: solid 1px #000;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.errNumLeft{
+    width: 70%;
+    height: 100%;
+    border-right:solid 1px #000;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+}
+
+.errNumLeft p{
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+.errNumRight{
+    width: 30%;
+}
+
+.blue{
+    color: blue;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+
+.red{
+    color: red;
+    margin-left: 13px;
+    margin-top: 20px;
+}

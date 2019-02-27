@@ -1,2 +1,7 @@
-# pigProject
-有关猪繁殖类项目
+# Team-One
+
+
+### npm start
+    项目运行
+### cnpm install
+    安装依赖

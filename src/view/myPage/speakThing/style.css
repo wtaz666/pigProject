@@ -1,0 +1,66 @@
+.speakthing{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 18px;
+}
+.top{
+    height: 40px;
+    width: 100%;
+    border-bottom: solid 1px #ccc;
+    /* text-align: center; */
+    line-height: 40px;
+    display: flex;
+}
+.top a{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.top span{
+    flex: 1;
+    text-align: center;
+}
+
+.speakThing{
+    width: 100%;
+}
+
+.msgBox{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 10px;
+    height: 120px;
+    border: solid 1px #000;
+    border-radius: 3px;
+}
+
+.title{
+    font-weight: 800;
+    margin: 10px 0 0 10px;
+}
+
+.describeBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 0 10px;
+    font-size: 14px;
+}
+
+.describe{
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.goDetail{
+    margin-right: 10px;
+}
+
+.time{
+    margin: 10px 0 0 10px;
+    font-size: 14px;
+}

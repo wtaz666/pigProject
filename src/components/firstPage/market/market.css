@@ -1,0 +1,11 @@
+.goMarket{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #ccc;
+}
